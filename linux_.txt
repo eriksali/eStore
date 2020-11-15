@@ -1,0 +1,179 @@
+C:\xampp\htdocs\eee\database\seeds
+cd C:/xampp/htdocs/eee/database/seeds 
+
+cd D:/0_2020_fall/COSC631/assignments/assign6/GITPractice2_userA 
+cd D:/0_2020_fall/COSC631/assignments/assign6/GITPractice2_userA/GIT_assignment
+
+php artisan db:seed --class=UserSeeder
+
+show tables;
+select * from products;
+
+
+composer install
+open xampp start mysql and apache
+step 1 PowerShell cd c:\xampp\mysql\bin
+cd c:/xampp/mysql/bin
+step 2 C:\xampp\mysql\bin>.\mysql -u root
+./mysql -u root
+step 3 MariaDB>create database eStore; 
+step 4 MariaDB>use eStore;
+step 5 copy eStore.sql to C:\xampp\mysql\bin>
+step 6 MariaDB>source eStore.sql
+
+show tables;
+select * from tablename;
+
+http://localhost:81/phpmyadmin/
+
+git clone https://github.com/COSC631-2020FALL/project-
+
+git init
+git add .
+git commit -m 'First commit'
+git branch -M main
+//////////////////					git remote add origin https://github.com/COSC631-2020FALL/project-
+git remote set-url origin https://github.com/COSC631-2020FALL/project-
+////////////////////////////////////////////////////////////////////////////Iaaool23@123456789///////////////////////////
+git push -u origin main
+
+echo "# project-" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/COSC631-2020FALL/project-.git
+git push -u origin main
+
+git remote add origin https://github.com/COSC631-2020FALL/project-.git
+git branch -M main
+git push -u origin main
+
+tar -czvf .tar.gz
+
+Connect to your Linux instance using WSL
+cp /mnt/d/0_2020_fall/COSC631/assignments/tutorial-key-pair.pem ~/tutorial-key-pair.pem
+
+sudo ssh -i ~/tutorial-key-pair.pem  ec2-user@ec2-54-184-193-250.us-west-2.compute.amazonaws.com
+
+<?php
+
+define('DB_SERVER', 'tutorial-db-instance.cetnwjckegau.us-west-2.rds.amazonaws.com');
+define('DB_USERNAME', 'tutorial_user');
+define('DB_PASSWORD', '');
+define('DB_DATABASE', 'sample');
+
+?>
+
+http://ec2-54-184-193-250.us-west-2.compute.amazonaws.com/SamplePage.php
+
+
+git bash
+cd c:/xampp/htdocs/lsapp/
+c:/xampp/htdocs/lsapp> php artisan serve
+http://localhost:81/lsapp/public/
+
+
+import existing project lsapp-
+git bash
+cd c:/xampp/htdocs/lsapp/
+c:/xampp/htdocs/lsapp> composer update --no-scripts
+c:/xampp/htdocs/lsapp> composer install
+
+
+open nodepad as administrator
+
+C:\Windows\System32\drivers\etc
+
+composer update --no-scripts
+
+php artisan make:seeder UsersSeeder
+
+1.open the fold location in cmd
+2.rename env.example file to .env
+3.confige the database informations // .env & config/database.php database name= forge user name= root
+run 
+4.composer install --no-scripts
+5.php artisan key:generate
+6.php artisan migrate ////////////////////////////
+php artisan migrate:refresh --seed
+Schema::dropIfExists('order_souvenirs');
+7.php artisan db:seed to run seeders, if any
+8.php artisan serve.
+
+
+
+Install Laravel
+step 1 Download Composer from https://getcomposer.org/download/
+step 2 Select C:/XAMPP/Php/php.exe
+step 3 PowerShell cd C:/XAMPP/htdocs/Laravel (created empty directory)
+step 4 C:/XAMPP/htdocs/Laravel> composer create-project --prefer-dist laravel/laravel Laravel
+step 5 C:/XAMPP/htdocs/Laravel> cd Laravel
+step 6 C:/XAMPP/htdocs/Laravel/Laravel> php artisan serve
+Laravel development server started: http://127.0.0.1:8000
+C:/XAMPP/htdocs/Laravel/Laravel> cd resources/views
+open welcome.blade.php
+change Laravel to Welcome to COSC631 Project
+
+
+open .env
+change database name to eStore
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=eStore
+DB_USERNAME=root
+DB_PASSWORD=
+
+step 7 C:/XAMPP/htdocs/Laravel/COSC631>php artisan migrate
+
+
+low version mockery
+composer update
+
+
+C:\xampp\htdocs\lsapp-\app\Providers\AppServiceProvider.php
+use Illuminate\Support\Facades\Schema;////////////////////////////////////////////
+
+class AppServiceProvider extends ServiceProvider
+{
+    /**
+     * Bootstrap any application services.
+     *
+     * @return void
+     */
+    public function boot()
+    {
+        if (str_contains(Config::get('app.url'), 'https://')) {
+            URL::forceScheme('https');
+        }
+		Schema::defaultStringLength(191);///////////////////////////////////////////////////
+    }
+
+
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'EraID' in 'order clause'
+./craft migrate/all
+
+
+Hi Dr. Bagherzadeh,
+
+
+I received an email from Oakland University Graduate School for financial documents that are required to issue I-20. I am reading some research papers, but I really have a busy schedule for this last semester.  Thank you!l  
+
+
+I am now taking the last three courses online in EMU that would be finished in December, 2020. I am really looking forward to the study of the doctoral program in your lab. I have read some of the research papers and I wish I could get some ideas for future work. I received an email from Oakland University Graduate School for financial documents, and  that are required to issue I-20. I got a response from Ms. Debra Valia that the department has received no additional funding for TA's. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
